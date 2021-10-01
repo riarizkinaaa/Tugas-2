@@ -1,1 +1,50 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+
+}
+.container{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: snow;
+    flex-wrap: wrap;
+    padding: 20px ;
+}
+.kotak{
+    display: flex;
+    width: 350px;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blue{
+    color: skyblue;
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid skyblue;
+}
+.btn-active{
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid skyblue;
+    background-color: blue;
+    color: white;
+}
+.garis{
+    width: 80%;
+    border: 1px solid skyblue;
+}
 
